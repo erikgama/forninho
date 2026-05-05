@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Ambiente local e credenciais
+.env
+.env.*
+*.env
+!.env.example
+
+# Artefatos gerados pelo Forninho
+reports/
+forninho_report_*.csv
+forninho_report_*.json
+*_report.csv
+*_report.json
+*_compare.csv
+
+# Logs e arquivos locais de sistema/editor
+*.log
+.DS_Store
+.idea/
+.vscode/
